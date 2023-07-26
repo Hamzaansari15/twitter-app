@@ -14,9 +14,17 @@ module.exports = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
       fontFamily: {
-        sans: ['Open Sans', 'sans-serif'],
-        serif: ['Merriweather', 'serif'],
+        primary: ['Open Sans', 'sans-serif'],
       }
+    },
+    screens: {
+      'sm': '500px',
+      // => @media (min-width: 640px) { ... }
+
+      'md': '1000px',
+      // => @media (min-width: 768px) { ... }
+
+      'lg': '1300px'
     },
   },
   plugins: [],
